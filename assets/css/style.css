@@ -1,0 +1,83 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+
+header {
+	padding: 20px 0;
+}
+
+header .row,
+footer .row {
+	display: flex;
+	align-items: center;
+}
+
+header h1 {
+	font-weight: 700;
+	margin: 0;
+}
+
+header nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+header p {
+	padding: 0 20px;
+	margin: 0;
+}
+
+#warning {
+	color: #AF002A;
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-size: cover;
+	height: 470px;
+}
+
+.jumbotron h2 {
+	display: inline-block;
+	overflow: hidden;
+	border-right: .15em solid transparent;
+	white-space: nowrap;
+	margin: 0 auto;
+	letter-spacing: .15em;
+	animation: 
+		typing 3.5s steps(40, end),
+		blink-caret 4s;
+		/* blink-caret 0.75s step-end infinite; */
+}
+
+@keyframes typing {
+	from {max-width: 0}
+	to {max-width: 100%}
+}
+
+@keyframes blink-caret {
+	from, to {border-color: transparent;}
+	50% {border-color: black;}
+}
+
+footer {
+	padding: 20px 0;
+}
+
+footer .col-8 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+footer li img {
+	width: 48px;
+	height: 48px;
+	margin: 5px;
+}
